@@ -2,11 +2,15 @@
 
     145 C 別解(全探索じゃない方法)
 
-■ 線形探索
-    https://qiita.com/drken/items/fdae15f6e9ede543b97a
 
 ■ タスクリスト
     https://atcoder.jp/contests/abs/tasks
+ABC085B	Kagami Mochi	2 sec	256 MB	提出
+ABC085C	Otoshidama	2 sec	256 MB	提出
+ABC049C	白昼夢	2 sec	256 MB	提出
+ABC086C	Traveling	2 sec	256 MB	提出
+
+
 
 
     AtCoder Beginner Contest 144 B - 81　基礎の基礎です。
