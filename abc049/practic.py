@@ -15,11 +15,29 @@ def fib_memo(n):
     memo[n] = fib_memo(n-1)+fib_memo(n-2)
     return memo[n]
 
-n = 990
+dp = dict()
+def fib_loop(n):
+    dp[0] = 0
+    dp[1] = 1
+
+    for i in range(2, n+1):
+        dp[i] = dp[i-1] + dp[i-2]
+
+    return dp[n]
+
+n = 1000
 # current_time = time.time()
 # fib(n)
 # print(time.time()-current_time)
 
+# current_time = time.time()
+# print([fib_memo(i) for i in range(n)])
+# print(time.time()-current_time)
+
+# current_time = time.time()
+# print([fib_loop(i) for i in range(n)])
+# print(time.time()-current_time)
+
 current_time = time.time()
-print([fib_memo(i) for i in range(n)])
+print(fib_loop(n))
 print(time.time()-current_time)
