@@ -1,21 +1,17 @@
 ■ 今後また見直したら理解できるようになっていたらいいなと思う問題
 
     145 C 別解(全探索じゃない方法)
-    049 C ごり押しでは解けたものの
-        参考；
-        https://qiita.com/drken/items/fd4e5e3630d0f5859067#%E7%AC%AC-9-%E5%95%8F--abc-049-c---daydream-300-%E7%82%B9
-        https://qiita.com/259_Momone/items/991d31ccc1f830a1d578#%E7%AC%AC-9-%E5%95%8F--abc049c---%E7%99%BD%E6%98%BC%E5%A4%A2--daydream
-        https://www.slideshare.net/iwiwi/ss-3578511
 
+■ 動的計画法(DP)
+    https://www.slideshare.net/iwiwi/ss-3578511
+    https://qiita.com/drken/items/a5e6fe22863b7992efdb
+    https://qiita.com/drken/items/dc53c683d6de8aeacf5a
+    http://wakabame.hatenablog.com/entry/2017/09/10/211428
+    https://atcoder.jp/contests/dp
 
 ■ タスクリスト
     https://atcoder.jp/contests/abs/tasks
-ABC085B	Kagami Mochi	2 sec	256 MB	提出
-ABC085C	Otoshidama	2 sec	256 MB	提出
-ABC049C	白昼夢	2 sec	256 MB	提出
-ABC086C	Traveling	2 sec	256 MB	提出
-
-
+    ABC086C	Traveling	2 sec	256 MB	提出
 
 
     AtCoder Beginner Contest 144 B - 81　基礎の基礎です。
