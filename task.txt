@@ -16,6 +16,7 @@
 
     Educational DP Contest / DP まとめコンテスト
     https://atcoder.jp/contests/dp
+    https://atcoder.jp/contests/dp/tasks/dp_b ※ 途中：TLEになるためnumpyを利用する？
 
 ■ タスクリスト
     https://atcoder.jp/contests/abs/tasks
