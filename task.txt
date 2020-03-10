@@ -19,10 +19,6 @@
     https://atcoder.jp/contests/dp/tasks/dp_b ※ 途中：TLEになるためnumpyを利用する？
 
 ■ タスクリスト
-    https://atcoder.jp/contests/abs/tasks
-    ABC086C	Traveling	2 sec	256 MB	提出
-
-
     AtCoder Beginner Contest 144 B - 81　基礎の基礎です。
     AtCoder Beginner Contest 150 B - Count ABC　全探索というか、「全通り調べ上げます」。
     AtCoder Beginner Contest 122 B - ATCoder　これも基本です。
