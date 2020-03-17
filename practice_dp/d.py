@@ -7,9 +7,8 @@ for i in range(N):
 dp=[[0]*(W+1) for _ in range(N+1)]
 
 for i in range(N):
-    for weight in range(W+1):
-        if weight - w[i] >= 0:
-            dp[i+1][weight] = max(dp[i][weight-w[i]]+v[i], dp[i][weight])
-        else:
-            dp[i+1][weight] = dp[i][weight]
+    dp[i+1] = dp[i].copy()
+    for j in range(w[i], W+1):
+        dp[i+1][j] = max(dp[i][j-w[i]] + v[i], dp[i][j])
+    print(dp[i], dp[i + 1])
 print(max(dp[N]))
